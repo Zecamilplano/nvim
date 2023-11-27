@@ -1,26 +1,9 @@
 return {
-  --comentt
-  {
-    'numToStr/Comment.nvim',
-    config = function()
-        require('Comment').setup()
-    end
-  },
+  "neoclide/coc.nvim",
+  "rhysd/vim-clang-format",
+  "robert-oleynik/clangd-nvim",
 
-  --live server
-  {
-        'barrett-ruth/live-server.nvim',
-        build = 'yarn global add live-server',
-        config = true
-  },
+  "mfussenegger/nvim-dap",
 
-  --GitLens
-  {
-    'APZelos/blamer.nvim'
-  },
-
-  --Ctrl + p
-  {
-    'vim-ctrlspace/vim-ctrlspace'
-  }
+  "MunifTanjim/eslint.nvim",
 }
