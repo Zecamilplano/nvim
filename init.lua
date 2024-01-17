@@ -3,3 +3,5 @@ require("config.lazy")
 require("plugins.plugins")
 require("config.keymaps")
 require("config.options")
+
+-- require("yamatsum/nvim-nonicons")
