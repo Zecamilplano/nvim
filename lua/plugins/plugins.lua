@@ -18,4 +18,9 @@ return {
     build = "yarn global add live-server",
     config = true,
   },
+
+  -- {
+  --   "mg979/vim-visual-multi",
+  --   { branch = "master" },
+  -- },
 }
